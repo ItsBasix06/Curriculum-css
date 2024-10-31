@@ -1,23 +1,42 @@
+body {
+    background-color: powderblue;
+}
+
 h1 {
     color: blue;
     background-color: yellow;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     font-weight: bold;
     font-size: 3em;
     text-align: center;
 }
+
 p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12 ptos;
+    font-family: "Verdana", sans-serif;
+    font-size: 12pt;
     text-align: justify;
     color: navy;
 }
-body {
-    background-color: powderblue;
-}
+
 h2 {
     background-color: black;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
     font-size: 15px;
+}
+
+h3 {
+    color: blue;
+    background-color: orange;
+    font-family: Verdana;
+    font-size: 20px;
+}
+
+table, th, td {
+    background-color: lightblue;
+    border: 2px dotted blue;
+}
+
+a {
+    text-decoration: none;
 }
